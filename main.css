@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+text-decoration: none;
+font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+a:link {
+color: black;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+height: 60px;
+background-color: black;
+color: white;
+}
+
+.hamburger-menu {
+margin-left: 10px;
+}
+
+.hamburger-line {
+display: flex;
+flex-flow: row;
+height: 5px;
+width: 2em;
+margin: 6px 0;
+background-color: white;
+}
+
+.navbar h1 {
+padding-left: 1em;
+}
+
+.hero {
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+min-height: 300px;
+background-color: #F0F0F0;
+color: black;
+font-size: 0.8rem;
+}
+
+.hero p {
+margin-top: 8px}
+
+.ad img {
+width: 100%;
+}
+
+.covidbanner {
+min-height: 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgreen;
+}
+
+.description {
+display: flex;
+flex-flex: column;
+align-items: center;
+justify-content: center;
+min-height: 300px;
+}
+
+.desleft {
+height: 200px;
+width: 50%;
+padding: 2.7rem;
+}
+
+.desright {
+height: 200px;
+width: 50%;
+padding: 2.5rem 1rem;
+}
+
+.desright p {
+margin-bottom: 15px;
+}
+
+.accommodation {
+margin: 8em auto;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+
+.accommodation p {
+margin-top: 1em;
+max-width: 60ch;
+}
+
+.rooms {
+display: flex;
+justify-content: space-evenly;
+}
+
+.room-item {
+border: none;
+margin: 0 0.3rem;
+padding: 0.7em;
+min-width: 30ch;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.room-item p {
+color: #4D4D4D;
+margin: 5px 0;
+}
+
+.room-item h2 {
+padding-top: 2em;
+padding-bottom: 1em;
+}
+
+.room-item p,
+.room-item h2 {
+padding-left: 10px;
+}
+
+.room-item:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.moredetails {
+width: 100%;
+min-height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.detleft a {
+color: black;
+margin-top: 5px;
+}
+
+.detright a {
+padding: 10px;
+background-color: black;
+color: white;
+}
+
+.room-upper {
+padding: 0;
+margin: 0;
+}
+
+.roomIMG {
+width: 100%;
+}
+
+.footer {
+min-height: 27rem;
+padding: 1rem;
+background-color: #282929;
+display:flex;
+flex-flow: row;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+}
+
+.footer-item {
+margin: 1em;
+display: flex;
+flex-direction: column;
+}
+
+.footer-item:first h3,
+.footer-item:first p {
+margin-top: 0.5em;
+border: 1px solid pink;
+}
+
+.sponsor p {
+width: 30ch;
+}
+
+.footer-nav {
+margin-top: 50px;
+}
+
+.footer-nav p {
+margin-top: 0.5em;
+}
+
+.footer-nav p:hover {
+text-decoration: underline;     
+    text-decoration-color: white;
+}
+
+.mailer,
+.socials {
+margin-top: 4em;
+}
+
+.social-icons {
+margin-top: 1em;
+}
+
+#logo {
+max-height:200px;
+max-width:200px;
+}
+
+#app {
+margin-top: 2em;
+max-width: 10rem;
+max-height: 6rem;
+}
+
+.bookbtn {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+height: 2em;
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+footer-nav p,
+.social-icons img,
+.bookbtn p {
+cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  room-item {
+padding: 0.3em;
+min-width: 20ch;
+  }
+}
